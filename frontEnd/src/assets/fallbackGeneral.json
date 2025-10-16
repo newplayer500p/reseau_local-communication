@@ -1,0 +1,76 @@
+{
+  "title": "Quiz Général (fallback)",
+  "description": "Jeu de questions local utilisé quand l'API externe est indisponible.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Quelle est la capitale de la France ?",
+      "options": ["Londres", "Berlin", "Paris", "Madrid"],
+      "correctAnswer": 2,
+      "explanation": "La bonne réponse est Paris."
+    },
+    {
+      "id": 2,
+      "question": "Combien de côtés a un hexagone ?",
+      "options": ["4", "5", "6", "7"],
+      "correctAnswer": 2,
+      "explanation": "La bonne réponse est 6."
+    },
+    {
+      "id": 3,
+      "question": "Quel est le principal langage utilisé pour développer des applications React ?",
+      "options": ["Python", "JavaScript", "Ruby", "Java"],
+      "correctAnswer": 1,
+      "explanation": "La bonne réponse est JavaScript."
+    },
+    {
+      "id": 4,
+      "question": "Quel élément chimique a pour symbole 'O' ?",
+      "options": ["Or", "Oxygène", "Osmium", "Oganesson"],
+      "correctAnswer": 1,
+      "explanation": "La bonne réponse est Oxygène."
+    },
+    {
+      "id": 5,
+      "question": "Quel est le plus grand océan sur Terre ?",
+      "options": ["Océan Atlantique", "Océan Arctique", "Océan Indien", "Océan Pacifique"],
+      "correctAnswer": 3,
+      "explanation": "La bonne réponse est l'océan Pacifique."
+    },
+    {
+      "id": 6,
+      "question": "Quel instrument mesure la température ?",
+      "options": ["Baromètre", "Altimètre", "Thermomètre", "Hygromètre"],
+      "correctAnswer": 2,
+      "explanation": "La bonne réponse est le thermomètre."
+    },
+    {
+      "id": 7,
+      "question": "Quel est le symbole chimique du fer ?",
+      "options": ["Fe", "Ir", "Fr", "Fi"],
+      "correctAnswer": 0,
+      "explanation": "La bonne réponse est Fe."
+    },
+    {
+      "id": 8,
+      "question": "En informatique, que signifie 'CPU' ?",
+      "options": ["Central Processing Unit", "Computer Power Unit", "Core Performance Utility", "Central Program Unit"],
+      "correctAnswer": 0,
+      "explanation": "La bonne réponse est Central Processing Unit."
+    },
+    {
+      "id": 9,
+      "question": "Quelle est la couleur primaire obtenue en mélangeant du bleu et du jaune ?",
+      "options": ["Rouge", "Vert", "Violet", "Orange"],
+      "correctAnswer": 1,
+      "explanation": "La bonne réponse est vert."
+    },
+    {
+      "id": 10,
+      "question": "Quel est l'animal terrestre le plus rapide ?",
+      "options": ["Guépard", "Lion", "Antilope", "Gnou"],
+      "correctAnswer": 0,
+      "explanation": "La bonne réponse est le guépard."
+    }
+  ]
+}

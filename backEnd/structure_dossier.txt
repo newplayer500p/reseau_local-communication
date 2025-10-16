@@ -1,0 +1,25 @@
+backend/
+├─ server.js               # Point d’entrée du serveur
+├─ package.json
+├─ .env                    # Variables sensibles (port, DB_URL, secret JWT)
+├─ config/
+│   └─ db.js               # Connexion à la base de données
+├─ routes/                 # Regroupe toutes les routes
+│   ├─ authRoutes.js
+│   ├─ userRoutes.js
+│   ├─ fichierRoutes.js
+│   └─ discussionRoutes.js
+├─ controllers/            # Contient la logique métier
+│   ├─ authController.js
+│   ├─ userController.js
+│   ├─ fichierController.js
+│   └─ discussionController.js
+├─ models/                 # Schémas Mongoose
+│   ├─ User.js
+│   ├─ Fichier.js
+│   └─ Discussion.js
+├─ middlewares/            # Middlewares personnalisés
+│   ├─ authMiddleware.js   # Vérifier JWT
+│   └─ errorMiddleware.js  # Gestion des erreurs
+└─ utils/                  # Fonctions utilitaires
+    └─ generateToken.js
